@@ -3,7 +3,6 @@ import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
 
 const Hero = () => {
-  const Break = () => <br className="sm:hidden block" />;
 
   return (
     <section className="relative w-full h-screen mx-auto">
@@ -21,8 +20,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Tuana</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Software Engineer, <Break />
-            Frontend Developer, <Break />
+            Software Engineer, <br className="sm:block md:hidden" />
+            Frontend Developer, <br className="block" />
             Always a Student
           </p>
         </div>
