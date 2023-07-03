@@ -1,7 +1,5 @@
 import {
-  mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,10 +13,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -29,10 +23,6 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
   },
   {
     id: "contact",
