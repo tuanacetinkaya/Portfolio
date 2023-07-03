@@ -45,7 +45,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
       >
         I'm a Computer Engineering student, experinced in Frontend. I have used
-        React, Javascript, Node.js and Three.js to develop applications. I'm
+        ReactJS, Javascript, HighCharts and React Tables to develop SEO applications in my past work. I'm
         expanding my knowledge to become a Full Stack Developer. I'm a quick
         learner and collaborate closely with my team to create efficient,
         scalable and user-friendly solutions. Let's connect to make this world a
